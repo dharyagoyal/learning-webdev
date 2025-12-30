@@ -1,4 +1,14 @@
-.follow{
+/* .follow{
     text-decoration: none;
     color: purple;
+} */
+
+/* Descendant Selector */
+
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li{
+    color: hotpink;
 }
