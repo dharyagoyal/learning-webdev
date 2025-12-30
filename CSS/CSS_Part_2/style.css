@@ -1,4 +1,11 @@
-/* Adjacent Sibling COmbinator */
-p + h3{
-    text-decoration: underline;
+input[type="text"]{
+    color: green;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+input[type]{
+    background-color: pink;
 }
