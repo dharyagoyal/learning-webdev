@@ -82,3 +82,7 @@ h1::first-letter{
 div[id="MyId"] p::first-line{
     color: red;
 }
+
+p::selection{
+    background-color: palegoldenrod;
+}
