@@ -1,14 +1,4 @@
-/* .follow{
-    text-decoration: none;
-    color: purple;
-} */
-
-/* Descendant Selector */
-
-.post a{
-    color: purple;
-    background-color: yellow;
-}
-nav ul li a{
-    color: hotpink;
+/* Adjacent Sibling COmbinator */
+p + h3{
+    text-decoration: underline;
 }
