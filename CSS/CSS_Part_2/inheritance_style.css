@@ -1,7 +1,13 @@
 div{
-    background-color: blue;
+    background-color: yellow;
 }
 
-p{
+form{
     background-color: red;
+}
+
+/* inputs and buttons do not inherit properties by default  */
+
+input{
+    background-color: inherit;
 }
