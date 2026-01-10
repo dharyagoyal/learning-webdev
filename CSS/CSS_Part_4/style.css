@@ -1,4 +1,4 @@
-div{
+div {
     height: 100px;
     width: 100px;
     background-color: green;
@@ -8,9 +8,16 @@ div{
     display: inline-block;
 }
 
-#static{
+#static {
     background-color: yellow;
     position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative {
+     background-color: yellow;
+    position: relative;
     top: 100px;
     left: 100px;
 }
