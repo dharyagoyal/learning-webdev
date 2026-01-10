@@ -49,11 +49,9 @@ div:nth-of-type(3n){
 } */
 
 div{
-    width: 200px;
-    height: 50px;
+    width:1000px;
+    height: 800px;
     background-color: rgb(93, 174, 93);
-    text-align: center;
     margin: 10px auto;
-
-    box-shadow: 2px 2px 100px yellow;
+    background-image: url("bgimage.jpg");
 }
