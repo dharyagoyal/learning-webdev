@@ -54,5 +54,8 @@ div{
     background-color: rgb(93, 174, 93);
     margin: 10px auto;
     background-image: url("bgimage.jpg");
-    background-size: auto;
+    background-size: cover;
+
+    color: white;
+    font-size: 50px;
 }
