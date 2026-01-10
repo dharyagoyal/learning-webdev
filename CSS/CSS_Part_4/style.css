@@ -50,9 +50,9 @@ div:nth-of-type(3n){
 
 div{
     width:1000px;
-    height: 800px;
+    height: 500px;
     background-color: rgb(93, 174, 93);
     margin: 10px auto;
     background-image: url("bgimage.jpg");
-    background-size: cover;
+    background-size: auto;
 }
