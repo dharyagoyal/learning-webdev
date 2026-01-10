@@ -37,6 +37,9 @@ div:nth-of-type(3n){
 }
 
 #three{
-    transform: translatey(100px);
+    transform: translate(100px);
 }
- 
+
+#four{
+    transform: skew(30deg);
+}
