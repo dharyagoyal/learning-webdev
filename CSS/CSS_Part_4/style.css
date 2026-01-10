@@ -23,5 +23,6 @@ div:nth-of-type(3n){
 
 section{
     background-color: rgba(255, 0, 0, 0.8);
+    opacity: 0;
 }
  
