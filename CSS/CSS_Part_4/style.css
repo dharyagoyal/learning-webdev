@@ -41,5 +41,5 @@ div:nth-of-type(3n){
 }
 
 #four{
-    transform: skew(30deg);
+    transform: skew(-30deg);
 }
