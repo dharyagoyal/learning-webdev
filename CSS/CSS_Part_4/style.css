@@ -21,8 +21,14 @@ div:nth-of-type(3n){
 
 /* Alpha and Opacity */
 
-section{
-    background-color: rgba(255, 0, 0, 0.8);
+/* section{
+    background-color: rgba(255, 0, 0, 0.8);  Alpha
     opacity: 0.5;
+} */
+
+/* Transform */
+
+#one{
+    transform: rotate(45deg);
 }
  
