@@ -21,7 +21,8 @@ h1 {
     align-self: flex-start;
     /* flex-basis: 50px; */
     /* flex-grow: 1; */
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
+    flex: 2 2 100;
 }
 
 #blue {
