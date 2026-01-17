@@ -1,0 +1,17 @@
+.container{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid lightseagreen;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    line-height: 50px;
+    margin-left: 5px;
+}
