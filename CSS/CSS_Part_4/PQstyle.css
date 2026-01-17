@@ -6,6 +6,7 @@
   height: 100px;
   background: green;
   transition: all 2s ease-in 0.5s;
+  /* Answered Q1 */
 }
 
 #box1:hover {
