@@ -29,6 +29,7 @@
   width: 100px;
   height: 100px;
   background: lightblue;
+  transform: skewX(20deg);
 }
 
 /* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
