@@ -17,7 +17,7 @@
 
     gap: 10px;/* Shorthand for row-gap and column-gap*/
 
-    justify-items: end;
+    justify-items: center;
 }
 
 .item{
