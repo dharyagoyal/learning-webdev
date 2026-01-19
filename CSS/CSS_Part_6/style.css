@@ -30,5 +30,8 @@
     /* grid-column-start: 1;
     grid-column-end: 4; */
 
-    grid-column: 1/4; /* Shorthand for start, end */
+   /* grid-column: 1/4; /* Shorthand for start, end */
+
+    grid-column: 1/ span 2; /* Another way of writing grid-column */
+    
 }
