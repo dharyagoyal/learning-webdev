@@ -33,5 +33,8 @@
    /* grid-column: 1/4; /* Shorthand for start, end */
 
     grid-column: 1/ span 2; /* Another way of writing grid-column */
-    
+}
+
+.two {
+    grid-row: 1/3
 }
