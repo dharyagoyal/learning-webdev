@@ -4,6 +4,7 @@
     background-color: black;
     display: grid;
     grid-template-rows: 80px 70px 60px;
+    grid-template-columns: 200px 200px 200px;
 }
 
 .item{
