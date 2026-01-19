@@ -19,7 +19,7 @@
 
     justify-items: center;
 
-    align-items: end;
+    align-items: center;
 
     /* justify is to arrange horizontally and align is to arrange item vertically inside a cell */
 }
