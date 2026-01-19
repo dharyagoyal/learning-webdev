@@ -18,6 +18,10 @@
     gap: 10px;/* Shorthand for row-gap and column-gap*/
 
     justify-items: center;
+
+    align-items: end;
+
+    /* justify is to arrange horizontally and align is to arrange item vertically inside a cell */
 }
 
 .item{
@@ -34,7 +38,7 @@
 
 /* .one {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 4; 
 
     grid-column: 1/4; Shorthand for start, end 
 
