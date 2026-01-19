@@ -16,6 +16,8 @@
     column-gap: 20px; */
 
     gap: 10px;/* Shorthand for row-gap and column-gap*/
+
+    justify-items: start;
 }
 
 .item{
@@ -26,15 +28,15 @@
     text-align: center;
 }
 
-.one {
-    /* grid-column-start: 1;
-    grid-column-end: 4; */
+/* .one {
+    grid-column-start: 1;
+    grid-column-end: 4;
 
-   /* grid-column: 1/4; /* Shorthand for start, end */
+    grid-column: 1/4; Shorthand for start, end 
 
-    grid-column: 1/ span 2; /* Another way of writing grid-column */
+    grid-column: 1 / span 2; Another way of writing grid-column
 }
 
 .two {
     grid-row: 1/ span 3
-}
+} */
