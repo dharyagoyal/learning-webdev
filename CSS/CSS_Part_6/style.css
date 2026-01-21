@@ -23,7 +23,7 @@
 
     /* justify is to arrange horizontally and align is to arrange item vertically inside a cell */
 
-    place-items: center;
+    place-items: start;
 }
 
 .item{
