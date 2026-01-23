@@ -3,10 +3,20 @@ h1 {
     border: 2px solid black;
 }
 
+div {
+    background-color: red;
+    color: white;
+}
+
 @media (width: 400px) {
     h1 {
         background-color: red;
         color: white;
         /* When devise width is 400px this style will be applied */
+    }
+    div {
+        background-color: yellow;
+        color: black;
+        border: 5px double black;
     }
 }
