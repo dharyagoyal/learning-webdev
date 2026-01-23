@@ -28,9 +28,16 @@ div {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 200px) {
     h1 {
         background-color: pink;
-        /* When width is less than 400px background color is pink */
+        /* When width is less than 200px background color is pink */
     }
+}
+
+@media (min-width: 200px) and (max-width: 300px){
+    h1 {
+        background-color: blue;
+    }
+    /* When width is between 200px and 300px background color changes to blue */
 }
