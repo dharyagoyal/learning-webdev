@@ -3,12 +3,17 @@
     width: 300px;
     background-color: pink;
 
-    animation-name: bgcolorAnimate;
+    /* animation-name: bgcolorAnimate;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-delay: 0;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: alternate; */
+
+    /* Animation Shorthand  */
+    /* animation : myName duration timing-function delay count direction  */
+
+    animation: widthAnimate 3s linear 1s infinite alternate;
 }
 
 @keyframes fontAnimation {
@@ -26,5 +31,14 @@
     }
     to{
         background-color: red;
+    }
+}
+
+@keyframes widthAnimate {
+    from{
+        width: 50px;
+    }
+    to {
+        width: 400px;
     }
 }
