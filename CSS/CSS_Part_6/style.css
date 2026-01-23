@@ -3,6 +3,7 @@
     height: 300px;
     background-color: yellow;
     display: inline-grid;
+    margin-bottom: 15px;
 
     /* Grid banane se element block item bann jata h */
 
@@ -57,3 +58,19 @@
 .two {
     grid-row: 1/ span 3
 } */
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.b1 {
+    background-color: seagreen;
+}
+
+.b2 {
+    background-color: aqua;
+    position: relative;
+}
