@@ -20,3 +20,9 @@ div {
         border: 5px double black;
     }
 }
+
+@media (min-width: 400px) {
+    h1 {
+        background-color: greenyellow;
+    }
+}
