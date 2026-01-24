@@ -13,7 +13,9 @@
     /* Animation Shorthand  */
     /* animation : myName duration timing-function delay count direction  */
 
-    animation: widthAnimate 3s linear 1s infinite alternate;
+    /* animation: widthAnimate 3s linear 1s infinite alternate;*/
+
+    animation: AnimateMultiple 5s ease-in 0s 1 normal;
 }
 
 @keyframes fontAnimation {
@@ -41,4 +43,22 @@
     to {
         width: 400px;
     }
+}
+
+/* to animate multiple proprties */
+@keyframes AnimateMultiple {
+    from {
+        width: 50px;
+        height: 50px;
+        background-color: gold;
+
+    }
+    to {
+        width: 250px;
+        height: 250px;
+        background-color: silver;
+        border-radius: 50%;
+        text-align: center;
+    }
+    
 }
