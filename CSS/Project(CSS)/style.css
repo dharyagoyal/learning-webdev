@@ -216,6 +216,57 @@ a {
 
 .album {
     width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.album-img {
+    justify-self: flex-start;
+    margin-right: 1rem;
+}
+
+.album-img img {
+    height: 3.5rem;
+    border-radius: 0.25rem;
+}
+
+.song-details {
+    line-height: 1.25rem;
+    margin-right: 1rem;
+}
+
+.song-name {
+    font-size: 0.8rem;
+}
+
+.song-name:hover {
+    text-decoration: underline;
+}
+
+.singer-name {
+    font-size: 0.65rem;
+    opacity: 0.7;
+}
+
+.singer-name:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.album-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.album-icon {
+    height: 1.25rem;
+    margin-left: 0.75rem;
+}
+
+.miniplayer {
+    height: 1.75rem;
 }
 
 .player {
@@ -267,7 +318,65 @@ a {
     appearance: none;
     height: 1rem;
     width: 1rem;
-    background-color: #1bd760;
+    background-color: #fff;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+.progress-bar::-webkit-slider-thumb:hover {
+    background-color: #1bd760;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-icon {
+    height: 1rem;
+    margin-left: 0.25rem;
+}
+
+.now-playing {
+    height: 2rem;
+}
+
+.lyrics {
+    height: 2rem;
+}
+
+.queue {
+    height: 1.35rem;
+}
+
+.volume {
+    transform: rotate(-90deg);
+    height: 1.5rem;
+}
+
+.vol {
+    width: 40%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.vol::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.1rem;
+}
+
+.vol::-webkit-slider-thumb {
+    appearance: none;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+
+.vol::-webkit-slider-thumb:hover {
+    background-color: #1bd760;
 }
